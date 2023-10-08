@@ -25,6 +25,15 @@ h6 {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color:black
+}
+
+a:hover{
+  color:white;
+}
+
 p {
   margin: 0;
 }
@@ -60,6 +69,7 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   text-decoration: underline;
+  color:var(--light)
 }
 
 header nav ul li a {
@@ -69,6 +79,10 @@ header nav ul li a {
   align-items: space-evenly;
   padding: 0px 40px 0px 40px;
   font-size: 25px;
+}
+
+header nav ul li a:hover{
+  color: white;
 }
 
 /* background container styling starts here  */
@@ -82,6 +96,10 @@ header nav ul li a {
   margin-top: 190px;
   left: 75%;
   font-size: 30px;
+}
+
+.backgroundcover h2 a:hover{
+  color:white;
 }
 
 .hero-banner div img{
@@ -133,7 +151,7 @@ header nav ul li a {
 #aboutheading {
   color:var(--darkblue);
   grid-area: aboutheading;
-  margin: 0px 10px 0px 100px;
+  margin: 0px 10px 0px 40px;
   width: 30px;
   font-size: 50px;
 }
@@ -163,7 +181,7 @@ header nav ul li a {
 #workheading {
   color:var(--darkblue);
   grid-area: workheading;
-  margin: 20px 0px 0px 100px;
+  margin: 20px 0px 0px 40px;
   width: 30px;
   font-size: 35px;
 }
@@ -235,18 +253,19 @@ header nav ul li a {
 .heading_web,
 .heading_game {
   position: absolute;
-  top: 20px;
+  top: 10px;
+  bottom: 10px;
   border: 5px solid var(--light);
   width: 200px;
-  margin-bottom: 50px;
+ 
 }
 
 .heading_cal {
   position: absolute;
   border: 5px solid var(--light);
   width: 180px;
-  top: 30px;
-  margin-bottom: 50px;
+  top: 10px;
+  bottom: 10px;
 }
 
 /* contact section styling starts here */
@@ -269,7 +288,6 @@ header nav ul li a {
 #contactheading {
   color:var(--darkblue);
   grid-area: aboutheading;
-  margin: 0px 10px 0px 45px;
   width: 30px;
   font-size: 50px;
 }

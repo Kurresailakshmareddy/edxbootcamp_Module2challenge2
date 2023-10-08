@@ -39,7 +39,7 @@ N/A
 
 ## Link to deployed application
 
-(https://kurresailakshmareddy.github.io/edxbootcamp_Modulechallenge1/)
+(https://kurresailakshmareddy.github.io/edxbootcamp_Module2challenge2/)
 
 ## License
 

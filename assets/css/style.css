@@ -101,7 +101,9 @@ header nav ul li a {
   margin-top: -300px;
   float: right;
 }
+
 /* about me section styling starts here */
+
 #page-wrapperArea {
   display: grid;
   min-height: 800px;

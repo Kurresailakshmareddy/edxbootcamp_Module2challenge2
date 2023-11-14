@@ -31,10 +31,10 @@ N/A
 
 ## Output of the website
 
-```md
+
 ![alt text](assets/images/output1.png)
 ![alt text](assets/images/output2.png)
-```
+
 
 
 ## Link to deployed application
